@@ -1,0 +1,38 @@
+{
+  "evaluation_parameters": {},
+  "meta": {
+    "active_batch_definition": {
+      "batch_identifiers": {},
+      "data_asset_name": "silver_listings2",
+      "data_connector_name": "fluent",
+      "datasource_name": "silver_datasource"
+    },
+    "batch_markers": {
+      "ge_load_time": "20231026T005116.634556Z"
+    },
+    "batch_spec": {
+      "batch_identifiers": {},
+      "data_asset_name": "silver_listings2",
+      "query": "SELECT * from listings",
+      "temp_table_schema_name": null
+    },
+    "checkpoint_id": null,
+    "checkpoint_name": "checkpoint_silver_listings",
+    "expectation_suite_name": "suite_silver_listings3",
+    "great_expectations_version": "0.17.23",
+    "run_id": {
+      "run_name": null,
+      "run_time": "2023-10-25T21:51:16.604974-03:00"
+    },
+    "validation_id": null,
+    "validation_time": "20231026T005116.722507Z"
+  },
+  "results": [],
+  "statistics": {
+    "evaluated_expectations": 0,
+    "success_percent": null,
+    "successful_expectations": 0,
+    "unsuccessful_expectations": 0
+  },
+  "success": true
+}
