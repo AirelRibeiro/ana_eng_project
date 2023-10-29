@@ -1,0 +1,66 @@
+name: 'dbt_airbnb_project'
+version: '1.0'
+config-version: 2
+
+models:
+  - name: listings_model
+    description: 'Descrição do modelo'
+    columns:
+      - name: id
+        description: "Airbnb's unique identifier for the listing"
+        data_type: BIGINT
+
+      - name: host_id
+        description: "Airbnb's unique identifier for the host/user"
+        data_type: BIGINT
+
+      - name: host_listings_count
+        description: 'The number of listings the host has (per Airbnb calculations)'
+        data_type: BIGINT
+
+      - name: host_total_listings_count
+        description: 'The number of listings the host has (per Airbnb calculations)'
+        data_type: BIGINT
+
+      - name: price
+        description: 'Daily price in local currency'
+        data_type: DOUBLE PRECISION
+
+      - name: review_scores_rating
+        description: 'Review scores rating'
+        data_type: DOUBLE PRECISION
+
+      - name: reviews_per_month
+        description: 'The number of reviews the listing has over the lifetime of the listing'
+        data_type: DOUBLE PRECISION
+
+      - name: host_is_superhost
+        description: 'Whether the host is a superhost (true or false)'
+        data_type: BOOLEAN
+
+      - name: host_identity_verified
+        description: "Whether the host's identity is verified (true or false)"
+        data_type: BOOLEAN
+
+      - name: has_availability
+        description: 'Availability status (true or false)'
+        data_type: BOOLEAN
+
+      - name: instant_bookable
+        description: 'Whether the guest can automatically book the listing (true or false)'
+        data_type: BOOLEAN
+
+      - name: listing_url
+        description: 'URL of the listing'
+        data_type: TEXT
+
+      - name: name
+        description: 'Name of the listing'
+        data_type: TEXT
+
+      - name: description
+        description: 'Detailed description of the listing'
+        data_type: TEXT
+    database: silver
+    schema: public
+    fqn: [silver, listings]

@@ -1,0 +1,30 @@
+[0m13:55:00.492072 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd3b5c3b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd3bcdd780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd3bcdd720>]}
+
+
+============================== 13:55:00.497801 | 7b0f39fa-09a5-4e84-94f7-5c04b4d719df ==============================
+[0m13:55:00.497801 [info ] [MainThread]: Running with dbt=1.6.6
+[0m13:55:00.498789 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/home/airelribeiro/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init airbnb_project', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:55:00.499590 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/airelribeiro/.dbt')}
+[0m13:55:00.500257 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m13:55:00.503607 [debug] [MainThread]: Starter project path: /home/airelribeiro/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m13:55:00.513438 [info ] [MainThread]: 
+Your new dbt project "airbnb_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:55:00.514397 [info ] [MainThread]: Setting up your profile.
+[0m14:01:59.192256 [info ] [MainThread]: Profile airbnb_project written to /home/airelribeiro/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m14:01:59.193884 [debug] [MainThread]: Command `dbt init` succeeded at 14:01:59.193615 after 418.71 seconds
+[0m14:01:59.194685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd3b5c3b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd3d02ed40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd3a8d09a0>]}
+[0m14:01:59.195481 [debug] [MainThread]: Flushing usage events

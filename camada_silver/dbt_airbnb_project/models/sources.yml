@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dbt_airbnb_project
+    description: 'Dados'
+    database: silver
+    schema: public
+    tables:
+      - name: listings
+        description: 'Dados listings da camada silver'
