@@ -114,6 +114,15 @@ fluent_datasources:
         batch_metadata: {}
         query: SELECT * from listings
     connection_string: postgresql+psycopg2://postgres:postgres@localhost:5432/silver
+  silver_datasource_final:
+    type: postgres
+    assets:
+      silver_listings_final:
+        type: query
+        order_by: []
+        batch_metadata: {}
+        query: SELECT * from listings
+    connection_string: postgresql+psycopg2://postgres:postgres@localhost:5432/silver
 notebooks:
 include_rendered_content:
   globally: false

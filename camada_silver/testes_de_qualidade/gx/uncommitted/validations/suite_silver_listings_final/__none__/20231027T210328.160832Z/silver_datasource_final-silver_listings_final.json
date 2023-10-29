@@ -1,0 +1,1131 @@
+{
+  "evaluation_parameters": {},
+  "meta": {
+    "active_batch_definition": {
+      "batch_identifiers": {},
+      "data_asset_name": "silver_listings_final",
+      "data_connector_name": "fluent",
+      "datasource_name": "silver_datasource_final"
+    },
+    "batch_markers": {
+      "ge_load_time": "20231027T210328.202214Z"
+    },
+    "batch_spec": {
+      "batch_identifiers": {},
+      "data_asset_name": "silver_listings_final",
+      "query": "SELECT * from listings",
+      "temp_table_schema_name": null
+    },
+    "checkpoint_id": null,
+    "checkpoint_name": "checkpoint_silver_listings",
+    "expectation_suite_name": "suite_silver_listings_final",
+    "great_expectations_version": "0.17.23",
+    "run_id": {
+      "run_name": null,
+      "run_time": "2023-10-27T18:03:28.160832-03:00"
+    },
+    "validation_id": null,
+    "validation_time": "20231027T210328.321681Z"
+  },
+  "results": [
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "id",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "host_id",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "host_listings_count",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "host_total_listings_count",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "accommodates",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "bedrooms",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "beds",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "minimum_nights",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "maximum_nights",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "minimum_minimum_nights",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "maximum_minimum_nights",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "minimum_maximum_nights",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "maximum_maximum_nights",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "availability_30",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "availability_60",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "availability_90",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "availability_365",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "number_of_reviews",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "number_of_reviews_ltm",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "number_of_reviews_l30d",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "calculated_host_listings_count",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "calculated_host_listings_count_entire_homes",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "calculated_host_listings_count_private_rooms",
+          "type_": "BIGINT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BIGINT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "review_scores_rating",
+          "type_": "DOUBLE_PRECISION"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "DOUBLE_PRECISION"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "review_scores_accuracy",
+          "type_": "DOUBLE_PRECISION"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "DOUBLE_PRECISION"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "review_scores_cleanliness",
+          "type_": "DOUBLE_PRECISION"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "DOUBLE_PRECISION"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "review_scores_checkin",
+          "type_": "DOUBLE_PRECISION"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "DOUBLE_PRECISION"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "review_scores_communication",
+          "type_": "DOUBLE_PRECISION"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "DOUBLE_PRECISION"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "review_scores_location",
+          "type_": "DOUBLE_PRECISION"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "DOUBLE_PRECISION"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "review_scores_value",
+          "type_": "DOUBLE_PRECISION"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "DOUBLE_PRECISION"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "reviews_per_month",
+          "type_": "DOUBLE_PRECISION"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "DOUBLE_PRECISION"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "listing_url",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "name",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "description",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "neighborhood_overview",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "picture_url",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "host_url",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "host_name",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "host_location",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "host_about",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "host_thumbnail_url",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "host_picture_url",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "host_neighbourhood",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "neighbourhood",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "neighbourhood_cleansed",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "property_type",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "room_type",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "bathrooms_text",
+          "type_": "TEXT"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "TEXT"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "host_is_superhost",
+          "type_": "BOOLEAN"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BOOLEAN"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "host_identity_verified",
+          "type_": "BOOLEAN"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BOOLEAN"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "has_availability",
+          "type_": "BOOLEAN"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BOOLEAN"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "silver_datasource_final-silver_listings_final",
+          "column": "instant_bookable",
+          "type_": "BOOLEAN"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "BOOLEAN"
+      },
+      "success": true
+    }
+  ],
+  "statistics": {
+    "evaluated_expectations": 52,
+    "success_percent": 100.0,
+    "successful_expectations": 52,
+    "unsuccessful_expectations": 0
+  },
+  "success": true
+}
